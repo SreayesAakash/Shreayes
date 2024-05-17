@@ -89,8 +89,27 @@ h6{
 .info-box{
   display: flex;
 }
-.space{
-  margin-top: 50px !important;
+
+#about{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#about .info_box{
+  display: flex;
+  align-items: center;
+}
+#about img{
+  width: 90px;
+}
+#about .info_content{
+  margin-left: 25px;
+}
+#about .info_content h5{
+  font-weight: 500;
+  color: black;
+}
+#about .about_img{
+  width: 100%;
 }
 #milestone{
     background: linear-gradient(rgba(255, 77, 41, 0.85), rgba(255, 77, 41, 0.85)), url(https://themewagon.github.io/prixima/img/bg_banner1.jpg);
